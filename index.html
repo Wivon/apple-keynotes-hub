@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Apple Keynotes — 2007 → 2026</title>
+<meta name="description" content="Tous les keynotes et événements Apple depuis le lancement de l’iPhone en 2007 : timeline, filtres par année, par type d’événement et par produit, avec les vidéos.">
+<link rel="stylesheet" href="assets/styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍎</text></svg>">
+<script>
+  // Appliqué avant le premier rendu pour éviter un flash de thème.
+  try {
+    var t = localStorage.getItem("ak-theme");
+    if (t) document.documentElement.setAttribute("data-theme", t);
+  } catch (e) {}
+</script>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <div class="masthead__top">
+      <div>
+        <h1><span class="glyph"></span>Keynotes Apple</h1>
+        <p>
+          Tous les keynotes, WWDC et événements Apple depuis la présentation
+          de l’iPhone, le 9 janvier 2007. Filtrez par année, par type
+          d’événement ou par produit lancé — et regardez la vidéo.
+        </p>
+      </div>
+      <button class="theme-toggle" id="theme-toggle" type="button"
+              aria-label="Changer de thème" title="Changer de thème">◐</button>
+    </div>
+
+    <div class="stats" id="stats"></div>
+  </div>
+</header>
+
+<div class="controls">
+  <div class="wrap controls__inner">
+
+    <div class="controls__row">
+      <label class="search">
+        <svg width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+          <circle cx="7" cy="7" r="5" stroke="currentColor" stroke-width="1.6"/>
+          <path d="M11 11l4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+        </svg>
+        <input type="search" id="search" placeholder="Rechercher un produit, un événement, un lieu…"
+               autocomplete="off" spellcheck="false" aria-label="Rechercher">
+        <button class="search__clear" id="search-clear" type="button" aria-label="Effacer la recherche">✕</button>
+      </label>
+
+      <div class="seg" role="group" aria-label="Mode d’affichage">
+        <button type="button" data-view="timeline" aria-pressed="true">Timeline</button>
+        <button type="button" data-view="grid" aria-pressed="false">Grille</button>
+      </div>
+
+      <div class="seg" role="group" aria-label="Ordre chronologique">
+        <button type="button" data-order="desc" aria-pressed="true">Récent</button>
+        <button type="button" data-order="asc" aria-pressed="false">Ancien</button>
+      </div>
+
+      <button class="reset" id="reset" type="button" hidden>Tout réinitialiser</button>
+      <span class="result-count" id="result-count"></span>
+    </div>
+
+    <div class="controls__row">
+      <span class="chips__label">Type</span>
+      <div class="chips" id="chips-type"></div>
+    </div>
+
+    <div class="controls__row">
+      <span class="chips__label">Produit</span>
+      <div class="chips" id="chips-product"></div>
+    </div>
+
+    <div class="controls__row">
+      <span class="chips__label">Année</span>
+      <div class="chips chips--scroll" id="chips-year"></div>
+    </div>
+
+  </div>
+</div>
+
+<main>
+  <div class="wrap" id="view"></div>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p>
+      78 événements, de Macworld 2007 à l’événement « Welcome home » d’octobre 2026.
+      Les vidéos proviennent de la chaîne YouTube officielle d’Apple lorsqu’elle
+      les héberge ; pour les keynotes antérieurs à 2013, elles sont issues
+      d’archives tierces (signalées sous le lecteur).
+    </p>
+    <p>
+      Projet indépendant, sans lien avec Apple Inc. Les noms de produits
+      cités sont des marques déposées d’Apple.
+    </p>
+  </div>
+</footer>
+
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
