@@ -69,8 +69,8 @@ qu’à partir de 2013 environ ; avant, les vidéos viennent d’archives tierce
 est signalé sous le lecteur. Les 8 événements sans vidéo sont des annonces faites
 par communiqué de presse, sans keynote filmé.
 
-L’événement « Welcome home » du 13 octobre 2026 est confirmé par Apple et marqué
-**à venir** ; les produits listés viennent de Bloomberg, pas d’Apple.
+Pour « Welcome home » (13 octobre 2026), Apple n’a pas filmé de keynote : la fiche
+intègre le film produit officiel du HomeView.
 
 ---
 

@@ -1466,21 +1466,19 @@ const EVENTS = [
     id: "2026-october",
     date: "2026-10-13",
     title: "Welcome home",
-    tagline: "À venir : Apple entre dans la maison connectée",
+    tagline: "HomeView : Apple entre dans la maison connectée",
     type: "special",
-    venue: "Tribeca, New York — 9 h (heure de New York), 15 h à Paris",
+    venue: "Tribeca, New York (Apple Experience, sans keynote diffusé)",
     host: "—",
-    video: null,
-    upcoming: true,
-    products: ["audio", "appletv", "accessory"],
-    summary: "Confirmé le 8 octobre par Greg Joswiak, avec le slogan « Welcome home » et le logo arc-en-ciel d’Apple brodé à la main. Comme en mars, Apple parle d’une « Experience » : une présentation en personne à la presse et aux créateurs. Aucune diffusion en direct n’a été annoncée pour l’instant. Les produits listés ci-dessous viennent des rapports de Bloomberg, pas d’Apple.",
+    video: "hkrYiZ_g9tw",
+    videoLabel: "Film produit « Welcome Apple HomeView » (Apple) — pas de keynote filmé",
+    products: ["audio", "appletv", "accessory", "silicon"],
+    summary: "Comme en mars, Apple remplace le keynote par une « Experience » réservée à la presse à New York. La pièce maîtresse est le HomeView, premier écran domestique d’Apple, qui reconnaît le visage de chaque membre du foyer pour afficher son propre agenda et ses notifications. Apple l’accompagne d’une gamme d’accessoires de maison co-conçus avec LG et Schneider Electric.",
     announcements: [
-      "Attendu : hub domestique (« HomePad »), écran d’environ 6 pouces, centré sur Siri AI",
-      "Attendu : HomePod mini, première mise à jour depuis 2020",
-      "Attendu : Apple TV 4K, premier nouveau boîtier depuis 2022",
-      "Évoqué pour octobre : iPad mini OLED, iMac M6, MacBook Pro 14\" M6, AirTag"
-    ],
-    link: "https://www.macstories.net/news/apple-announces-october-2026-event/",
-    linkLabel: "L’annonce sur MacStories"
+      "HomeView à 299 $ : écran carré 7\" sur base enceinte, puce A18, reconnaissance faciale, version murale ou à poser (livraison le 13 novembre)",
+      "HomePod mini 2 à 149 $ : nouvelle puce pour Siri AI, « sound glow », enceinte par défaut du Mac, 5 coloris (le 30 octobre)",
+      "Apple TV 4K (4e génération) à 299 $ : puce A19, micros pour Siri AI mains libres, son surround avec jusqu’à quatre HomePod (le 13 novembre)",
+      "Apple Home Collection avec LG et Schneider Electric : caméras, sonnette vidéo, serrure, thermostats (dès décembre 2026)"
+    ]
   }
 ];
