@@ -1,7 +1,7 @@
 # Keynotes Apple — 2007 → 2026
 
-Dashboard statique qui réunit **78 keynotes et événements Apple**, du Macworld
-de janvier 2007 (présentation de l’iPhone) aux annonces attendues en octobre 2026.
+Dashboard statique qui réunit **79 keynotes et événements Apple**, du Macworld
+de janvier 2007 (présentation de l’iPhone) à l’événement « Pro and tell » d’octobre 2026.
 
 ## Lancer
 
@@ -32,7 +32,7 @@ Chaque événement a une URL profonde : `index.html#2023-wwdc`.
 ```
 index.html          structure de la page
 assets/styles.css   design system (tokens, thèmes, composants)
-assets/data.js      les 78 événements + taxonomies
+assets/data.js      les 79 événements + taxonomies
 assets/app.js       filtres, rendu, modale
 ```
 
@@ -71,6 +71,9 @@ par communiqué de presse, sans keynote filmé.
 
 Pour « Welcome home » (13 octobre 2026), Apple n’a pas filmé de keynote : la fiche
 intègre le film produit officiel du HomeView.
+
+« Pro and tell » (28 octobre 2026) est confirmé par Apple et marqué **à venir** ;
+les produits listés viennent de Bloomberg, pas d’Apple.
 
 ---
 

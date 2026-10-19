@@ -1480,5 +1480,25 @@ const EVENTS = [
       "Apple TV 4K (4e génération) à 299 $ : puce A19, micros pour Siri AI mains libres, son surround avec jusqu’à quatre HomePod (le 13 novembre)",
       "Apple Home Collection avec LG et Schneider Electric : caméras, sonnette vidéo, serrure, thermostats (dès décembre 2026)"
     ]
+  },
+  {
+    id: "2026-pro-and-tell",
+    date: "2026-10-28",
+    title: "Pro and tell",
+    tagline: "À venir : MacBook Pro OLED et nouvelles machines Pro",
+    type: "special",
+    venue: "Los Angeles, 10 h (heure du Pacifique), 18 h à Paris",
+    host: "—",
+    video: null,
+    upcoming: true,
+    products: ["mac", "ipad", "silicon"],
+    summary: "Annoncé le 19 octobre par Greg Joswiak, deux semaines après « Welcome home ». Comme pour les deux précédents rendez-vous de 2026, il ne s’agit pas d’un keynote diffusé mais d’une session de prise en main pour la presse, à Los Angeles. Les produits ci-dessous viennent des rapports de Bloomberg, pas d’Apple.",
+    announcements: [
+      "Attendu : MacBook Pro 14\" et 16\" à écran OLED tactile, avec Dynamic Island (M5 Pro / M5 Max)",
+      "Attendu : iPad mini à écran OLED, haut-parleurs revus",
+      "Attendu : iMac M6 et MacBook Pro 14\" d’entrée de gamme M6"
+    ],
+    link: "https://9to5mac.com/2026/10/19/apple-announces-special-event-for-october-28/",
+    linkLabel: "L’annonce sur 9to5Mac"
   }
 ];
